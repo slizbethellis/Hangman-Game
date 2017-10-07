@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman - Sheep Breeds Edition</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer/sticky-footer.css">
+	<script src="assets/javascript/game.js"></script>
+	<script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+	<div class="jumbotron text-center">
+    <div class="container-fluid">
+    		<h1>Hangman</h1> 
+    		<p>Sheep Breeds Edition</p>
+    </div>
+  </div>
+
+	<div class="container-fluid">
+  	<div class="row">
+  		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+	  		<div class="thumbnail">
+	  			<img src="assets/images/shreksheep.png" class="img-rounded" alt="Shrek the Sheep" width="425">
+	  			<p>Presented by Shrek the Sheep*</p>
+	  		</div>
+	  	</div>
+	  	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+	  		<div class="panel panel-default text-center">
+				  <div class="panel-heading">Press Any Key to Start</div>
+				  <div class="panel-body">
+				  	<p>Wins: <span id="wins"></span></p>
+				  	<p>Losses: <span id="losses"></span></p>
+				  	<hr>
+				  	<p>Current Word: </p>
+				  	<p id="word"></p>
+				  	<hr>
+				  	<p>Number of Guesses Remaining: <span id="guesses"></span></p>
+				  	<p>Letters already guessed: </p>
+				  	<p id="letters"></p>
+				  </div>
+				</div>
+	  	</div>
+  	</div>	
+  </div>
+
+  <footer class="footer">
+      <div class="container">
+    		<div class="row">
+    			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    				<h5>*Shrek was a merino sheep who escaped and lived in a cave for six years. When he was captured and shorn, his fleece weighed 60 pounds!</h5>
+    			</div>
+    		</div>
+    	</div>
+  </footer>
+	
+</body>
+</html>

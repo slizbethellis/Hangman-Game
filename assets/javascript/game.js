@@ -108,7 +108,7 @@ document.onkeyup = function(event) {
 		var newDiv = document.createElement("p");
 		var sheepDiv = document.createElement("img");
 		sheepDiv.id = "word-pic";
-		sheepDiv.src = "assets/images/" + word + ".jpg";
+		sheepDiv.src = "./assets/images/" + word + ".jpg";
 		lettersElement.appendChild(newDiv);
   	lettersElement.appendChild(sheepDiv);
 	}
